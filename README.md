@@ -1,7 +1,7 @@
 # transaction-ancestry
 
 
-1. Check the transaction_ancestry.py file for Transaction Ancestry implementation in Python.
+1. Check the transaction_ancestry.py file for Transaction Ancestry implementation in Python 2.7
 
 2. Added a test file to show how to get the 10 largest Ancestry Transaction sets.
 
