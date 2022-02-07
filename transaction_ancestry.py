@@ -6,7 +6,7 @@ BLOCK_STREAM_BASE_URL = 'https://blockstream.info/api'
 BLOCK_STREAM_URL_MAP = {
     'block': lambda block_hash: '/block/{}'.format(block_hash),
     'block_hash_by_height': lambda block_height: '/block-height/{}'.format(block_height),
-    'block_txs': lambda block_hash, idx: '/block/{}/txs/[:{}]'.format(block_hash, idx),
+    'block_txs': lambda block_hash, idx: '/block/{}/txs/{}'.format(block_hash, idx),
     'transaction': lambda txid: '/tx/{}'.format(txid),
     'txids': lambda block_hash: '/block/{}/txids'.format(block_hash),
 }
